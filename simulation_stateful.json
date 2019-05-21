@@ -1,0 +1,221 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "GET"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "time.jsontest.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "exact",
+							"value": ""
+						}
+					],
+					"query": {},
+					"requiresState": {
+						"sequence:1": "1"
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "{\n   \"date\": \"03-13-2019\",\n   \"milliseconds_since_epoch\": 1552465071097,\n   \"time\": \"08:17:51 AM\"\n}\n",
+					"encodedBody": false,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Content-Length": [
+							"100"
+						],
+						"Content-Type": [
+							"application/json"
+						],
+						"Date": [
+							"Wed, 13 Mar 2019 08:17:51 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Google Frontend"
+						],
+						"X-Cloud-Trace-Context": [
+							"3b3833a07ced1e2410b43aee94e693e0"
+						]
+					},
+					"templated": false,
+					"transitionsState": {
+						"sequence:1": "2"
+					}
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "GET"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "time.jsontest.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "exact",
+							"value": ""
+						}
+					],
+					"query": {},
+					"requiresState": {
+						"sequence:1": "2"
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "{\n   \"date\": \"03-13-2019\",\n   \"milliseconds_since_epoch\": 1552465086812,\n   \"time\": \"08:18:06 AM\"\n}\n",
+					"encodedBody": false,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Content-Length": [
+							"100"
+						],
+						"Content-Type": [
+							"application/json"
+						],
+						"Date": [
+							"Wed, 13 Mar 2019 08:18:06 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Google Frontend"
+						],
+						"X-Cloud-Trace-Context": [
+							"da9d9be60546a4fa790516d17c105ffc"
+						]
+					},
+					"templated": false,
+					"transitionsState": {
+						"sequence:1": "3"
+					}
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "GET"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "time.jsontest.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "exact",
+							"value": ""
+						}
+					],
+					"query": {},
+					"requiresState": {
+						"sequence:1": "3"
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "{\n   \"date\": \"03-13-2019\",\n   \"milliseconds_since_epoch\": 1552465090071,\n   \"time\": \"08:18:10 AM\"\n}\n",
+					"encodedBody": false,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Content-Length": [
+							"100"
+						],
+						"Content-Type": [
+							"application/json"
+						],
+						"Date": [
+							"Wed, 13 Mar 2019 08:18:10 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Google Frontend"
+						],
+						"X-Cloud-Trace-Context": [
+							"4818bfe7d86a9d49e3d5b26ad4ad5a93"
+						]
+					},
+					"templated": false
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v5",
+		"hoverflyVersion": "v0.17.7",
+		"timeExported": "2019-03-13T16:19:01+08:00"
+	}
+}
