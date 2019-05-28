@@ -210,7 +210,7 @@
 			}
 		],
 		"globalActions": {
-			"delays": 60000
+			"delays": 70000
 		}
 	},
 	"meta": {
