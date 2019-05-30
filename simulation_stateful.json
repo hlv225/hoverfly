@@ -33,27 +33,21 @@
 							"value": ""
 						}
 					],
-					"query": {},
-					"requiresState": {
-						"sequence:1": "1"
-					}
+					"query": {}
 				},
 				"response": {
-					"status": 200,
-					"body": "{\n   \"date\": \"03-13-2019\",\n   \"milliseconds_since_epoch\": 1552465071097,\n   \"time\": \"08:17:51 AM\"\n}\n",
+					"status": 503,
+					"body": "\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>503 Over Quota</title>\n<style><!--\nbody {font-family: arial,sans-serif}\ndiv.nav {margin-top: 1ex}\ndiv.nav A {font-size: 10pt; font-family: arial,sans-serif}\nspan.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}\ndiv.nav A,span.big {font-size: 12pt; color: #0000cc}\ndiv.nav A {font-size: 10pt; color: black}\nA.l:link {color: #6f6f6f}\nA.u:link {color: green}\n//--></style>\n\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<table border=0 cellpadding=2 cellspacing=0 width=100%>\n<tr><td bgcolor=#3366cc><font face=arial,sans-serif color=#ffffff><b>Error</b></td></tr>\n<tr><td>&nbsp;</td></tr></table>\n<blockquote>\n<H1>Over Quota</H1>\nThis application is temporarily over its serving quota.  Please try again later.\n\n<p>\n</blockquote>\n<table width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#3366cc><img alt=\"\" width=1 height=4></td></tr></table>\n</body></html>\n",
 					"encodedBody": false,
 					"headers": {
-						"Access-Control-Allow-Origin": [
-							"*"
-						],
 						"Content-Length": [
-							"100"
+							"970"
 						],
 						"Content-Type": [
-							"application/json"
+							"text/html"
 						],
 						"Date": [
-							"Wed, 13 Mar 2019 08:17:51 GMT"
+							"Thu, 30 May 2019 02:57:06 GMT"
 						],
 						"Hoverfly": [
 							"Was-Here"
@@ -62,147 +56,7 @@
 							"Google Frontend"
 						],
 						"X-Cloud-Trace-Context": [
-							"3b3833a07ced1e2410b43aee94e693e0"
-						]
-					},
-					"templated": false,
-					"transitionsState": {
-						"sequence:1": "2"
-					}
-				}
-			},
-			{
-				"request": {
-					"path": [
-						{
-							"matcher": "exact",
-							"value": "/"
-						}
-					],
-					"method": [
-						{
-							"matcher": "exact",
-							"value": "GET"
-						}
-					],
-					"destination": [
-						{
-							"matcher": "exact",
-							"value": "time.jsontest.com"
-						}
-					],
-					"scheme": [
-						{
-							"matcher": "exact",
-							"value": "http"
-						}
-					],
-					"body": [
-						{
-							"matcher": "exact",
-							"value": ""
-						}
-					],
-					"query": {},
-					"requiresState": {
-						"sequence:1": "2"
-					}
-				},
-				"response": {
-					"status": 200,
-					"body": "{\n   \"date\": \"03-13-2019\",\n   \"milliseconds_since_epoch\": 1552465086812,\n   \"time\": \"08:18:06 AM\"\n}\n",
-					"encodedBody": false,
-					"headers": {
-						"Access-Control-Allow-Origin": [
-							"*"
-						],
-						"Content-Length": [
-							"100"
-						],
-						"Content-Type": [
-							"application/json"
-						],
-						"Date": [
-							"Wed, 13 Mar 2019 08:18:06 GMT"
-						],
-						"Hoverfly": [
-							"Was-Here"
-						],
-						"Server": [
-							"Google Frontend"
-						],
-						"X-Cloud-Trace-Context": [
-							"da9d9be60546a4fa790516d17c105ffc"
-						]
-					},
-					"templated": false,
-					"transitionsState": {
-						"sequence:1": "3"
-					}
-				}
-			},
-			{
-				"request": {
-					"path": [
-						{
-							"matcher": "exact",
-							"value": "/"
-						}
-					],
-					"method": [
-						{
-							"matcher": "exact",
-							"value": "GET"
-						}
-					],
-					"destination": [
-						{
-							"matcher": "exact",
-							"value": "time.jsontest.com"
-						}
-					],
-					"scheme": [
-						{
-							"matcher": "exact",
-							"value": "http"
-						}
-					],
-					"body": [
-						{
-							"matcher": "exact",
-							"value": ""
-						}
-					],
-					"query": {},
-					"requiresState": {
-						"sequence:1": "3"
-					}
-				},
-				"response": {
-					"status": 200,
-					"body": "{\n   \"date\": \"03-13-2019\",\n   \"milliseconds_since_epoch\": 1552465090071,\n   \"time\": \"08:18:10 AM\"\n}\n",
-					"encodedBody": false,
-					"headers": {
-						"Access-Control-Allow-Origin": [
-							"*"
-						],
-						"Content-Length": [
-							"100"
-						],
-						"Content-Type": [
-							"application/json"
-						],
-						"Date": [
-							"Wed, 13 Mar 2019 08:18:10 GMT"
-						],
-						"Hoverfly": [
-							"Was-Here"
-						],
-						"Server": [
-							"Google Frontend"
-						],
-						"X-Cloud-Trace-Context": [
-							"4818bfe7d86a9d49e3d5b26ad4ad5a93"
+							"7117b07477f72eb4120b12480e5ad22d"
 						]
 					},
 					"templated": false
@@ -210,7 +64,7 @@
 			}
 		],
 		"globalActions": {
-			"delays": 80000
+			"delays": []
 		}
 	},
 	"meta": {
